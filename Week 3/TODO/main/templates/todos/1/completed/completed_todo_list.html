@@ -1,0 +1,10 @@
+{% extends 'todos/todo_list.html' %}
+{% block content %}
+<p>Completed list(extended from todo_list.html)</p>
+    {% include 'todos/2/included/included_list.html' %}
+        {% include 'todos/2/included/included_list.html' %}
+    {% include 'todos/2/included/included_list.html' %}
+    {% include 'todos/2/included/included_list.html' %}
+    {% include 'todos/2/included/included_list.html' %}
+
+{% endblock %}
